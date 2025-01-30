@@ -13,5 +13,5 @@ queryProlog query = do
 -- Exemplo de uso
 main :: IO ()
 main = do
-    result <- queryProlog "consult('prolog.pl'), minha_regra(X), write(X), nl, fail"
+    result <- queryProlog "consult('prolog.pl'), homem(X), write(X), nl, fail"
     putStrLn result
